@@ -88,7 +88,7 @@ ul {
 .form-control {
     height: 50px;
     color: #24416b;
-    border: 1px solid #e8e8e8;
+    border: 1px solid /e8e8e8;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0;
     padding: 0;
@@ -196,7 +196,7 @@ textarea.form-control {
     color: #fff;
     background-color: #82b440;
     padding: 10px 20px 10px 42px;
-    box-shadow: 0 1px 20px 1px #82b440;
+    box-shadow: 0 1px 20px 1px /82b440;
     font-size: 13px;
     font-weight: 600
 }
@@ -322,10 +322,10 @@ textarea.form-control {
 .page-navigation-area .page-link {
     color: blue;
     background-color: #fff;
-    box-shadow: 0 0 15px #d0d0d0;
+    box-shadow: 0 0 15px /d0d0d0;
     width: 40px;
     height: 40px;
-    border: 1px solid #fff;
+    border: 1px solid /fff;
     line-height: 24px;
     transition: all .5s;
     font-weight: 700
@@ -474,7 +474,7 @@ textarea.form-control {
 
 .default-btn.active::before {
     border-top: 20px solid rgba(0, 0, 0, 0);
-    border-left: 20px solid #fff;
+    border-left: 20px solid /fff;
     border-bottom: 20px solid rgba(0, 0, 0, 0);
     left: -1px
 }
@@ -526,7 +526,7 @@ textarea.form-control {
 
 .default-btn:hover::before {
     border-top: 20px solid rgba(0, 0, 0, 0);
-    border-left: 20px solid #fff;
+    border-left: 20px solid /fff;
     border-bottom: 20px solid rgba(0, 0, 0, 0)
 }
 
@@ -759,7 +759,7 @@ textarea.form-control {
 .top-header {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #e5e5e5
+    border-bottom: 1px solid /e5e5e5
 }
 
 .top-header .header-left-content .white-logo {
@@ -797,7 +797,7 @@ textarea.form-control {
     left: 0;
     width: 35px;
     height: 35px;
-    border: 1px solid #f3ddd0;
+    border: 1px solid /f3ddd0;
     line-height: 35px;
     text-align: center;
     border-radius: 50%
@@ -873,7 +873,7 @@ textarea.form-control {
     content: "";
     border-top: 0;
     border-right: 8px solid rgba(0, 0, 0, 0);
-    border-bottom: 8px solid #fff;
+    border-bottom: 8px solid /fff;
     border-left: 8px solid rgba(0, 0, 0, 0);
     top: -8px;
     right: 57px
@@ -980,7 +980,7 @@ textarea.form-control {
     content: "";
     border-top: 0;
     border-right: 8px solid rgba(0, 0, 0, 0);
-    border-bottom: 8px solid #fff;
+    border-bottom: 8px solid /fff;
     border-left: 8px solid rgba(0, 0, 0, 0);
     top: -8px;
     left: 20px
@@ -991,7 +991,7 @@ textarea.form-control {
     color: #24416b;
     position: relative;
     padding: 6px 15px;
-    border-bottom: 1px dashed #eee;
+    border-bottom: 1px dashed /eee;
     margin-left: 0;
     margin-right: 0
 }
@@ -1054,7 +1054,7 @@ textarea.form-control {
     content: "";
     border-top: 0;
     border-right: 8px solid rgba(0, 0, 0, 0);
-    border-bottom: 8px solid #fff;
+    border-bottom: 8px solid /fff;
     border-left: 8px solid rgba(0, 0, 0, 0);
     top: 35px;
     left: -11px;
@@ -1411,7 +1411,7 @@ textarea.form-control {
 
 .tab.quote-list-tab .tabs {
     background-color: #fcfcfc;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid /eee;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05)
 }
 
@@ -1680,7 +1680,7 @@ textarea.form-control {
     background-color: #fff;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
     padding: 20px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid /eee;
     transition: all .5s;
     margin-bottom: 30px
 }
@@ -1759,7 +1759,7 @@ textarea.form-control {
 }
 
 .choose-img {
-    background-image: url(https://templates.envytheme.com/prevoz/default/assets/img/choose-img.jpg);
+    background-image: url(/assets/images/choose.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1931,7 +1931,7 @@ textarea.form-control {
     font-size: 35px;
     margin-bottom: 50px;
     padding: 20px;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid /eee
 }
 
 .began-wrap .single-began {
@@ -1958,25 +1958,25 @@ textarea.form-control {
 }
 
 .began-wrap .col-lg-4:nth-child(1) .single-began {
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee
+    border-right: 1px solid /eee;
+    border-bottom: 1px solid /eee
 }
 
 .began-wrap .col-lg-4:nth-child(2) .single-began {
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee
+    border-right: 1px solid /eee;
+    border-bottom: 1px solid /eee
 }
 
 .began-wrap .col-lg-4:nth-child(3) .single-began {
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid /eee
 }
 
 .began-wrap .col-lg-4:nth-child(4) .single-began {
-    border-right: 1px solid #eee
+    border-right: 1px solid /eee
 }
 
 .began-wrap .col-lg-4:nth-child(5) .single-began {
-    border-right: 1px solid #eee
+    border-right: 1px solid /eee
 }
 
 .testimonials-area .section-title span {
@@ -2274,7 +2274,7 @@ textarea.form-control {
 .single-widget ul li {
     margin-bottom: 15px;
     position: relative;
-    border-bottom: 1px dashed #eee
+    border-bottom: 1px dashed /eee
 }
 
 .single-widget ul li:last-child {
@@ -2419,7 +2419,7 @@ textarea.form-control {
     z-index: 1;
     margin-bottom: 35px;
     color: #24416b;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid /eee;
     padding-bottom: 5px
 }
 
@@ -2623,7 +2623,7 @@ textarea.form-control {
     margin-top: -40px;
     padding: 10px;
     outline: none;
-    border: 2px solid #fff;
+    border: 2px solid /fff;
     height: 60px;
     border-radius: 5px
 }
@@ -2734,7 +2734,7 @@ textarea.form-control {
 
 .about-area-two .about-img .about-list h3 {
     font-size: 18px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid /eee;
     padding-bottom: 5px;
     margin-bottom: 15px
 }
@@ -2890,7 +2890,7 @@ textarea.form-control {
     height: 40px;
     text-align: center;
     line-height: 40px;
-    border-bottom: 1px solid #19345a;
+    border-bottom: 1px solid /19345a;
     transform: perspective(1000px) rotateY(90deg);
     transition: all .5s;
     transform-origin: left
@@ -3003,7 +3003,7 @@ textarea.form-control {
 
 .header-style-three .header-right-content .get-quote .default-btn::before {
     border-top: 10px solid rgba(0, 0, 0, 0);
-    border-left: 10px solid #fff;
+    border-left: 10px solid /fff;
     border-bottom: 10px solid rgba(0, 0, 0, 0);
     top: 8px
 }
@@ -3364,7 +3364,7 @@ textarea.form-control {
 
 .footer-top-area-three {
     background-color: #24416b;
-    border-bottom: 1px solid #395277
+    border-bottom: 1px solid /395277
 }
 
 .footer-top-area-three .single-widget h3 {
@@ -3372,7 +3372,7 @@ textarea.form-control {
 }
 
 .footer-top-area-three .single-widget ul li {
-    border-bottom: 1px dashed #556e92
+    border-bottom: 1px dashed /556e92
 }
 
 .footer-top-area-three .single-widget ul li::before {
@@ -3664,7 +3664,7 @@ textarea.form-control {
 .prevoz-slider-area-four .owl-prev i {
     background-color: rgba(0, 0, 0, 0) !important;
     border-radius: 50%;
-    border: 1px solid #fff
+    border: 1px solid /fff
 }
 
 .prevoz-slider-area-four .owl-prev i:hover {
@@ -3674,7 +3674,7 @@ textarea.form-control {
 .prevoz-slider-area-four .owl-next i {
     background-color: rgba(0, 0, 0, 0) !important;
     border-radius: 50%;
-    border: 1px solid #fff
+    border: 1px solid /fff
 }
 
 .prevoz-slider-area-four .owl-next i:hover {
@@ -3936,25 +3936,25 @@ textarea.form-control {
 }
 
 .began-area-four .began-wrap .col-lg-4:nth-child(1) .single-began {
-    border-right: 1px solid #19345a;
-    border-bottom: 1px solid #19345a
+    border-right: 1px solid /19345a;
+    border-bottom: 1px solid /19345a
 }
 
 .began-area-four .began-wrap .col-lg-4:nth-child(2) .single-began {
-    border-bottom: 1px solid #19345a;
-    border-right: 1px solid #19345a
+    border-bottom: 1px solid /19345a;
+    border-right: 1px solid /19345a
 }
 
 .began-area-four .began-wrap .col-lg-4:nth-child(3) .single-began {
-    border-bottom: 1px solid #19345a
+    border-bottom: 1px solid /19345a
 }
 
 .began-area-four .began-wrap .col-lg-4:nth-child(4) .single-began {
-    border-right: 1px solid #19345a
+    border-right: 1px solid /19345a
 }
 
 .began-area-four .began-wrap .col-lg-4:nth-child(5) .single-began {
-    border-right: 1px solid #19345a
+    border-right: 1px solid /19345a
 }
 
 .began-area-four .began-top-wrap {
@@ -4525,7 +4525,7 @@ textarea.form-control {
 .prevoz-slider-area-six .owl-prev i {
     background-color: rgba(0, 0, 0, 0) !important;
     border-radius: 50%;
-    border: 1px solid #fff
+    border: 1px solid /fff
 }
 
 .prevoz-slider-area-six .owl-prev i:hover {
@@ -4535,7 +4535,7 @@ textarea.form-control {
 .prevoz-slider-area-six .owl-next i {
     background-color: rgba(0, 0, 0, 0) !important;
     border-radius: 50%;
-    border: 1px solid #fff
+    border: 1px solid /fff
 }
 
 .prevoz-slider-area-six .owl-next i:hover {
@@ -4777,7 +4777,7 @@ textarea.form-control {
 
 .single-choose .choose-head {
     padding: 30px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid /eaeaea;
     position: relative
 }
 
@@ -4854,7 +4854,7 @@ textarea.form-control {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://templates.envytheme.com/prevoz/default/assets/img/page-bg/1.jpg)
+    background-image: url(/assets/images/transport.JPG) !important
 }
 
 .page-title-area::before {
@@ -5137,8 +5137,8 @@ textarea.form-control {
 }
 
 .blog-details-area .post-navigation {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid /eee;
+    border-bottom: 1px solid /eee;
     padding-top: 20px;
     padding-bottom: 20px
 }
@@ -5231,7 +5231,7 @@ textarea.form-control {
 }
 
 .blog-details-area .comments-area .comment-body {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid /eee;
     padding-left: 65px;
     font-size: 14px;
     margin-bottom: 20px;
@@ -5243,7 +5243,7 @@ textarea.form-control {
 }
 
 .blog-details-area .comments-area .comment-body .reply a {
-    border: 1px solid #ded9d9;
+    border: 1px solid /ded9d9;
     color: #24416b;
     display: inline-block;
     padding: 5px 20px;
@@ -5332,7 +5332,7 @@ textarea.form-control {
     transform: translateY(-50%)
 }
 
-.blog-details-area .comments-area .comment-respond .comment-reply-title #cancel-comment-reply-link {
+.blog-details-area .comments-area .comment-respond .comment-reply-title /cancel-comment-reply-link {
     display: inline-block
 }
 
@@ -5357,7 +5357,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5371,7 +5371,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5385,7 +5385,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5399,7 +5399,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5413,7 +5413,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5427,7 +5427,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5441,7 +5441,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5455,7 +5455,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5469,7 +5469,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5483,7 +5483,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5497,7 +5497,7 @@ textarea.form-control {
     display: block;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     padding: .625em .7375em;
     outline: 0;
     transition: .5s
@@ -5631,7 +5631,7 @@ textarea.form-control {
     background-color: rgba(0, 0, 0, 0);
     height: 50px;
     padding: 6px 15px;
-    border: 1px solid #eee;
+    border: 1px solid /eee;
     width: 100%;
     display: block;
     outline: 0;
@@ -5669,7 +5669,7 @@ textarea.form-control {
     overflow: hidden;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #efefef
+    border-bottom: 1px solid /efefef
 }
 
 .blog-details-area .widget-area .widget-peru-posts-thumb .item:last-child {
@@ -5794,7 +5794,7 @@ textarea.form-control {
     padding-left: 17px;
     font-size: 15px;
     font-weight: 600;
-    border-bottom: 1px solid #efefef
+    border-bottom: 1px solid /efefef
 }
 
 .blog-details-area .widget-area .widget_categories ul li:last-child {
@@ -5871,7 +5871,7 @@ textarea.form-control {
     font-weight: normal;
     font-size: 14px !important;
     padding: 7px 10px;
-    border: 1px dashed #eee;
+    border: 1px dashed /eee;
     margin-top: 10px;
     margin-right: 10px
 }
@@ -5898,7 +5898,7 @@ textarea.form-control {
 .blog-details-area .widget-area .widget_services_list ul li a {
     display: block;
     position: relative;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid /eee;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -5967,7 +5967,7 @@ textarea.form-control {
 .blog-details-area .widget-area .widget_download ul li a {
     display: block;
     position: relative;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid /eee;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -6051,7 +6051,7 @@ textarea.form-control {
 }
 
 .service-sidebar-area .service-list ul li {
-    border-bottom: 1px dashed #eee;
+    border-bottom: 1px dashed /eee;
     padding: 15px 20px;
     font-weight: 500;
     transition: all .5s
@@ -6179,7 +6179,7 @@ textarea.form-control {
     margin-top: 10px
 }
 
-.service-details-wrap #msgSubmit {
+.service-details-wrap /msgSubmit {
     top: 68px;
     left: 15px
 }
@@ -6224,7 +6224,7 @@ textarea.form-control {
     padding: 12px 20px 12px 60px;
     color: #24416b;
     position: relative;
-    border-bottom: 1px dashed #eee;
+    border-bottom: 1px dashed /eee;
     margin-bottom: -1px;
     display: block;
     font-size: 18px
@@ -6289,7 +6289,7 @@ textarea.form-control {
 }
 
 .faq-area .faq-img {
-    background-image: url(https://templates.envytheme.com/prevoz/default/assets/img/blog-details/news-details-img.jpg);
+    background-image: url(/assets/images/skill.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6368,11 +6368,11 @@ textarea.form-control {
     margin-right: auto
 }
 
-.coming-soon-area .coming-soon-content #timer {
+.coming-soon-area .coming-soon-content /timer {
     margin-top: 30px
 }
 
-.coming-soon-area .coming-soon-content #timer div {
+.coming-soon-area .coming-soon-content /timer div {
     display: inline-block;
     color: #fff;
     position: relative;
@@ -6382,7 +6382,7 @@ textarea.form-control {
     font-weight: 700
 }
 
-.coming-soon-area .coming-soon-content #timer div span {
+.coming-soon-area .coming-soon-content /timer div span {
     display: block;
     text-transform: capitalize;
     margin-top: -15px;
@@ -6390,19 +6390,19 @@ textarea.form-control {
     font-weight: normal
 }
 
-.coming-soon-area .coming-soon-content #timer div:last-child {
+.coming-soon-area .coming-soon-content /timer div:last-child {
     margin-right: 0
 }
 
-.coming-soon-area .coming-soon-content #timer div:last-child::before {
+.coming-soon-area .coming-soon-content /timer div:last-child::before {
     display: none
 }
 
-.coming-soon-area .coming-soon-content #timer div:first-child {
+.coming-soon-area .coming-soon-content /timer div:first-child {
     margin-left: 0
 }
 
-.coming-soon-area .coming-soon-content #timer div::before {
+.coming-soon-area .coming-soon-content /timer div::before {
     content: "";
     position: absolute;
     right: -50px;
@@ -6469,7 +6469,7 @@ textarea.form-control {
     color: #fff
 }
 
-.coming-soon-area .coming-soon-content .newsletter-form #validator-newsletter {
+.coming-soon-area .coming-soon-content .newsletter-form /validator-newsletter {
     color: #fff;
     font-size: 14px;
     position: absolute;
@@ -6590,7 +6590,7 @@ textarea.form-control {
 
 .sign-up-area .contact-form-action form .default-btn:hover::before {
     border-top: 10px solid rgba(0, 0, 0, 0);
-    border-left: 10px solid #fff;
+    border-left: 10px solid /fff;
     border-bottom: 10px solid rgba(0, 0, 0, 0);
     top: 10px
 }
@@ -6601,7 +6601,7 @@ textarea.form-control {
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(2) .default-btn::before {
-    border-left: 10px solid #3b5998
+    border-left: 10px solid /3b5998
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(2) .default-btn:hover {
@@ -6609,7 +6609,7 @@ textarea.form-control {
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(2) .default-btn:hover::before {
-    border-left: 10px solid #fff
+    border-left: 10px solid /fff
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(2) .default-btn:hover::after {
@@ -6622,7 +6622,7 @@ textarea.form-control {
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(3) .default-btn::before {
-    border-left: 10px solid #1da1f2
+    border-left: 10px solid /1da1f2
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(3) .default-btn:hover {
@@ -6630,7 +6630,7 @@ textarea.form-control {
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(3) .default-btn:hover::before {
-    border-left: 10px solid #fff
+    border-left: 10px solid /fff
 }
 
 .sign-up-area .contact-form-action form .col-lg-4:nth-child(3) .default-btn:hover::after {
@@ -6668,12 +6668,12 @@ textarea.form-control {
     font-weight: 600
 }
 
-.sign-up-area .contact-form-action #chb1 {
+.sign-up-area .contact-form-action /chb1 {
     position: relative;
     top: 1px
 }
 
-.sign-up-area .contact-form-action #chb2 {
+.sign-up-area .contact-form-action /chb2 {
     position: relative;
     top: 1px
 }
@@ -6972,4 +6972,4 @@ textarea.form-control {
     padding-bottom: 100px
 }
 
-/*# sourceMappingURL=style.css.map */
+/*/ sourceMappingURL=style.css.map */

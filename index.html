@@ -2,63 +2,67 @@
 <html lang="zxx">
 
 <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap Min CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Owl Theme Default Min CSS -->
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!-- Owl Carousel Min CSS -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <!-- Owl Magnific Min CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!-- Animate Min CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!-- Boxicons Min CSS -->
-    <link rel="stylesheet" href="assets/css/boxicons.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <!-- Meanmenu Min CSS -->
-    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-    <!-- Nice Select Min CSS -->
-    <link rel="stylesheet" href="assets/css/nice-select.min.css">
-    <!-- Odometer Min CSS-->
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Dark CSS -->
-    <link rel="stylesheet" href="assets/css/dark.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!-- Favicon -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="/assets/css/odometer.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/dark.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="icon" type="image/png" href="/assets/images/emogi.JPG">
-
-    <!-- Title -->
     <title>Timi Logistics</title>
 </head>
 
 <style>
-    .fit{
+    .fit {
         object-fit: cover;
+    }
+
+    .counter-area-Two {
+        background-image: url(/assets/images/ship.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        position: relative;
+        z-index: 1
+    }
+
+    .counter-area-Two::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #062b47;
+        opacity: .8;
+        z-index: -1
+    }
+
+    .choose-image {
+        background-image: url(/assets/images/choose.jpg) !important;
     }
 </style>
 
 <body>
-    <!-- Start Preloader Area -->
+
     <div class="preloader">
         <div class="lds-ripple">
             <div></div>
             <div></div>
         </div>
     </div>
-    <!-- End Preloader Area -->
-
-    <!-- Start Header Area -->
     <header class="header-area">
-        <!-- Start Top Header Area -->
         <div class="top-header header-style-two" id="home">
             <div class="container">
                 <div class="row">
@@ -148,18 +152,16 @@
                 </div>
             </div>
         </div>
-        <!-- End Top Header Area -->
 
-        <!-- Start Prevoz Navbar Area -->
         <div class="prevoz-nav-style">
             <div class="navbar-area">
-                <!-- Menu For Mobile Device -->
+
                 <div class="mobile-nav">
                     <a href="index.html" class="logo" style="background-color: blue;border-radius: 5px;">
                         <img src="/assets/images/timi-logo-removebg-preview.png" alt="Logo">
                     </a>
                 </div>
-                <!-- Menu For Desktop Device -->
+
                 <div class="main-nav">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <div class="container">
@@ -170,19 +172,89 @@
                             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
-                                        <a href="#home" class="nav-link">Home</a>
+                                        <a href="/" class="nav-link">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#about" class="nav-link">About</a>
+                                        <a href="#" class="nav-link dropdown-toggle">
+                                            Pages
+                                            <i class='bx bx-chevron-down'></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a href="/about-us" class="nav-link">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/why-choose-us" class="nav-link">Why Choose Us
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/team" class="nav-link">Team</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link dropdown-toggle">
+                                                    User
+                                                    <i class='bx bx-chevron-down'></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="nav-item">
+                                                        <a href="/user/log-in" class="nav-link">Log In</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="/user/sign-up" class="nav-link">Sign Up</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="/user/recover-password" class="nav-link">Recover
+                                                            Password</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/terms-conditions" class="nav-link">Terms Conditions</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/privacy-policy" class="nav-link">Privacy Policy</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#roles" class="nav-link"> Roles</a>
+                                        <a href="#" class="nav-link dropdown-toggle">
+                                            Company
+                                            <i class='bx bx-chevron-down'></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a href="/company/company-history" class="nav-link">Company History</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/company/company-clients" class="nav-link">Company Clients</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/company/careers" class="nav-link">Careers</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#services" class="nav-link">Services</a>
+                                        <a href="#" class="nav-link dropdown-toggle">
+                                            Services
+                                            <i class='bx bx-chevron-down'></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a href="/services/services" class="nav-link">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/services/road-transport" class="nav-link">Road Transport</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/services/air-transport" class="nav-link">Air Transport</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="/services/ocean-transport" class="nav-link">Ocean Transport</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#news" class="nav-link">News</a>
+                                        <a href="/news" class="nav-link">News</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link dropdown-toggle">
@@ -191,19 +263,18 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="#request-quote" class="nav-link">Request A Quote</a>
+                                                <a href="/features/request-a-quote" class="nav-link">Request A Quote</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#global-location" class="nav-link">Global Location</a>
+                                                <a href="/features/global-location" class="nav-link">Global Location</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item">
-                                        <a data-bs-toggle="modal" data-bs-target="#myModal2"
-                                            class="nav-link">Contact</a>
+                                     <li class="nav-item">
+                                        <a href="/contact" class="nav-link">Contact</a>
                                     </li>
                                 </ul>
-                                <!-- Start Other Option -->
+
                                 <div class="others-option">
                                     <div class="search-wrap">
                                         <a href=".search">
@@ -224,18 +295,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Other Option -->
+
                             </div>
                         </div>
                     </nav>
                 </div>
             </div>
         </div>
-        <!-- End Prevoz Navbar Area -->
-    </header>
-    <!-- End Header Area -->
 
-    <!-- Start Sidebar Modal -->
+    </header>
+
     <div class="sidebar-modal">
         <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
             <div class="modal-dialog" role="document">
@@ -269,13 +338,13 @@
                                     <a href="# Track & Trace">Log In</a>
                                 </li>
                                 <li>
-                                    <a href="sign-up.html">Sign Up</a>
+                                    <a href="/user/sign-up">Sign Up</a>
                                 </li>
                                 <li>
                                     <a href="faq.html">FAQ</a>
                                 </li>
                                 <li>
-                                    <a href="log-in.html">Logout</a>
+                                    <a href="/user/log-in">Logout</a>
                                 </li>
                             </ul>
                         </div>
@@ -340,9 +409,7 @@
             </div>
         </div>
     </div>
-    <!-- End Sidebar Modal -->
 
-    <!-- Start Search Box Modal -->
     <div class="search-wrap">
         <div class="search">
             <button type="button" class="close">×</button>
@@ -354,9 +421,7 @@
             </form>
         </div>
     </div>
-    <!-- End Search Box Modal -->
 
-    <!-- Start Prevoz Slider Area -->
     <section class="prevoz-slider-area prevoz-slider-area-two">
         <div class="prevoz-slider owl-carousel owl-theme">
             <div class="prevoz-slider-item slider-item-bg-4">
@@ -427,9 +492,7 @@
             </div>
         </div>
     </section>
-    <!-- End Prevoz Slider Area -->
 
-    <!-- Start What We Offer Area -->
     <section class="what-offer-area-two mt-minus-70 pb-70">
         <div class="container">
             <div class="row">
@@ -476,9 +539,7 @@
             </div>
         </div>
     </section>
-    <!-- End What We Offer Area -->
 
-    <!-- Start About Area -->
     <section class="about-area about-area-two pb-100" id="about">
         <div class="container-fluid">
             <div class="row">
@@ -531,17 +592,15 @@
             </div>
         </div>
     </section>
-    <!-- End About Area -->
 
-    <!-- Start Counter Area -->
-    <section class="counter-area counter-area-two pt-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
+    <section class="counter-area counter-area-Two pt-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-counter">
                         <i class="flaticon-box"></i>
                         <h2>
-                            <span class="odometer" data-count="9450">00</span> <span class="traget">K</span>
+                            <span class="odometer" data-count="8845">00</span> <span class="traget">K</span>
                         </h2>
                         <p>Delivered Packages</p>
                     </div>
@@ -550,7 +609,7 @@
                     <div class="single-counter">
                         <i class="flaticon-planet-earth"></i>
                         <h2>
-                            <span class="odometer" data-count="1150">00</span> <span class="traget">M</span>
+                            <span class="odometer" data-count="1507">00</span> <span class="traget">M</span>
                         </h2>
                         <p>Countries Covered</p>
                     </div>
@@ -559,7 +618,7 @@
                     <div class="single-counter">
                         <i class="flaticon-support"></i>
                         <h2>
-                            <span class="odometer" data-count="3000">00</span> <span class="traget">K</span>
+                            <span class="odometer" data-count="1000">00</span> <span class="traget">K</span>
                         </h2>
                         <p>Satisfied Clients</p>
                     </div>
@@ -568,7 +627,7 @@
                     <div class="single-counter">
                         <i class="flaticon-product-realise"></i>
                         <h2>
-                            <span class="odometer" data-count="5686">00</span> <span class="traget">M</span>
+                            <span class="odometer" data-count="4586">00</span> <span class="traget">M</span>
                         </h2>
                         <p>Tons of Goods</p>
                     </div>
@@ -576,9 +635,8 @@
             </div>
         </div>
     </section>
-    <!-- End Counter Area -->
 
-    <!-- start Service Area -->
+
     <section class="service-area service-area-two pt-100 pb-100" id="services">
         <div class="container">
             <div class="section-title">
@@ -643,9 +701,7 @@
             </div>
         </div>
     </section>
-    <!-- End Service Area -->
 
-    <!-- Start Brand Area -->
     <div class="brand-area brand-area-two pt-70 pb-70" style="background-color: rgb(7, 12, 115);">
         <div class="container">
             <div class="row">
@@ -704,14 +760,12 @@
             </div>
         </div>
     </div>
-    <!-- End Brand Area -->
 
-    <!-- Start Team Area -->
     <section class="team-area pt-100 pb-70" id="teams">
         <div class="container">
             <div class="section-title">
                 <span>Professional Team</span>
-                <h2>Behind Every Successful Move Is a Great Team</h2>
+                <h2>Expert Hands, Trusted Every Time</h2>
                 <p>Our staff undergo continuous training to stay updated with the latest logistics and customer service
                     standards.We believe in teamwork, accountability, and a customer-first mindset in all we do.</p>
             </div>
@@ -749,7 +803,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
-                        <img style="height: 315px;"  class="fit" src="/assets/images/james.JPG" alt="Image">
+                        <img style="height: 315px;" class="fit" src="/assets/images/james.JPG" alt="Image">
                         <div class="team-content">
                             <h3>James George</h3>
                             <span>Office executive support</span>
@@ -780,7 +834,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
-                        <img style="height: 315px;"  class="fit" src="/assets/images/happy.JPG" alt="Image">
+                        <img style="height: 315px;" class="fit" src="/assets/images/happy.JPG" alt="Image">
                         <div class="team-content">
                             <h3>Joseph Happiness</h3>
                             <span>Regional supplier</span>
@@ -811,7 +865,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
-                        <img style="height: 315px;"  class="fit" src="/assets/images/mark.JPG" alt="Image">
+                        <img style="height: 315px;" class="fit" src="/assets/images/mark.JPG" alt="Image">
                         <div class="team-content">
                             <h3>Mark Williams</h3>
                             <span>International supplier</span>
@@ -843,11 +897,9 @@
             </div>
         </div>
     </section>
-    <!-- End Team Area -->
 
-    <!-- Start Why Choose Us Area -->
     <section class="choose-us-area pb-100">
-        <div class="container">
+        <div class="container" style="margin-top: 70px;">
             <div class="section-title">
                 <span>Why Choose Us</span>
                 <h2>Fast. Safe. Sure.</h2>
@@ -884,7 +936,7 @@
                                         satisfaction.To build a trusted logistics network that empowers commerce and
                                         supports growth.To deliver every item with speed, safety, and professionalism.
                                     </p>
-                                    <a class="default-btn" href="#about">
+                                    <a class="default-btn" href="/why-choose-us">
                                         Learn About
                                     </a>
                                 </div>
@@ -901,7 +953,7 @@
                                         cities, businesses, and people through world-class logistics services.To grow
                                         into a logistics brand recognized for excellence and operational integrity.
                                     </p>
-                                    <a class="default-btn" href="#about">
+                                    <a class="default-btn" href="/why-choose-us">
                                         Learn About
                                     </a>
                                 </div>
@@ -914,7 +966,7 @@
                                     <p>To build a strong, trustworthy logistics brand across Nigeria and beyond.To offer
                                         affordable, technology-driven logistics services for everyday needs.To connect
                                         communities by moving goods with precision and care.</p>
-                                    <a class="default-btn" href="#about">
+                                    <a class="default-btn" href="/why-choose-us">
                                         Learn About
                                     </a>
                                 </div>
@@ -923,15 +975,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 pl-0">
-                    <div class="choose-img choose-img-two">
+                    <div class="choose-img choose-image">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Why Choose Us Area -->
 
-    <!-- End Began Area -->
     <section class="began-area pb-70" id="roles">
         <div class="container">
             <div class="section-title">
@@ -989,9 +1039,7 @@
             </div>
         </div>
     </section>
-    <!-- End Began Area -->
 
-    <!-- Start Testimonials Area -->
     <section class="testimonials-area fun-blue-bg ptb-100" id="Testimonial">
         <div class="container">
             <div class="section-title">
@@ -1083,9 +1131,7 @@
             </div>
         </div>
     </section>
-    <!-- End Testimonials Area -->
 
-    <!-- Start Blog Area -->
     <section class="blog-area pt-100 pb-70" id="news">
         <div class="container">
             <div class="section-title">
@@ -1097,24 +1143,24 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
-                        <a href="news-details.html">
+                        <a href="/news">
                             <img style="height: 40vh;" src="/assets/images/online-groccery-getty.webp" alt="Image">
                         </a>
                         <div class="blog-content">
                             <ul>
                                 <li>
-                                    <a href="news-details.html"><img style="width: 25px;height: 25px;"
+                                    <a href="/news"><img style="width: 25px;height: 25px;"
                                             src="/assets/images/james.JPG" alt="Image"></a>
-                                    <a href="news-details.html">By: James George</a>
+                                    <a href="/news">By: James George</a>
                                 </li>
                                 <li>May 30, 2025</li>
                             </ul>
                             <h3>
-                                <a href="news-details.html">
+                                <a href="/news">
                                     Smart delivery made simple.Your Delivery, Our Priority.Trusted delivery, every time.
                                 </a>
                             </h3>
-                            <a class="read-more" href="#priorities">
+                            <a class="read-more" href="/news">
                                 Read More
                                 <i class='bx bx-right-arrow-alt'></i>
                             </a>
@@ -1124,25 +1170,25 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
-                        <a href="news-details.html">
+                        <a href="/news">
                             <img style="height: 40vh;" src="/assets/images/titi.JPG" alt="Image">
                         </a>
                         <div class="blog-content">
                             <ul>
                                 <li>
-                                    <a href="news-details.html"><img style="width: 25px;height: 25px;"
+                                    <a href="/news"><img style="width: 25px;height: 25px;"
                                             src="/assets/images/titi.JPG" alt="Image"></a>
-                                    <a href="news-details.html">By: Amith Titilayo</a>
+                                    <a href="/news">By: Amith Titilayo</a>
                                 </li>
                                 <li>Feb 5, 2025</li>
                             </ul>
                             <h3>
-                                <a href="news-details.html">
+                                <a href="/news">
                                     Engineering excellence, logistics perfection.Engineered for Speed and
                                     Safety.Logistics by Design
                                 </a>
                             </h3>
-                            <a class="read-more" href="#priorities">
+                            <a class="read-more" href="/news">
                                 Read More
                                 <i class='bx bx-right-arrow-alt'></i>
                             </a>
@@ -1152,26 +1198,26 @@
                 </div>
                 <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                     <div class="single-blog">
-                        <a href="news-details.html">
+                        <a href="/news">
                             <img style="height: 40vh;" src="/assets/images/transport.JPG" alt="Image">
                         </a>
                         <div class="blog-content">
                             <ul>
                                 <li>
-                                    <a href="news-details.html"><img
+                                    <a href="/news"><img
                                             src="https://templates.envytheme.com/prevoz/default/assets/img/blog/6.jpg"
                                             alt="Image"></a>
-                                    <a href="news-details.html">By: joney jai</a>
+                                    <a href="/news">By: joney jai</a>
                                 </li>
                                 <li>Feb 10, 2024</li>
                             </ul>
                             <h3>
-                                <a href="news-details.html">
+                                <a href="/news">
                                     We transport with speed and precision.Reliable transport for every
                                     destination.
                                 </a>
                             </h3>
-                            <a class="read-more" href="news-details.html">
+                            <a class="read-more" href="/news">
                                 Read More
                                 <i class='bx bx-right-arrow-alt'></i>
                             </a>
@@ -1182,9 +1228,7 @@
             </div>
         </div>
     </section>
-    <!-- End Blog Area -->
 
-    <!-- Start Subscribe Area -->
     <div class="subscribe-area ptb-100" id="newsletter">
         <div class="container">
             <div class="section-title white-title">
@@ -1204,9 +1248,7 @@
             </div>
         </div>
     </div>
-    <!-- End Subscribe Area -->
 
-    <!-- Start Track Area -->
     <section class="track-area track-area-two pt-100" id=" Track & Trace">
         <div class="container">
             <div class="row">
@@ -1439,9 +1481,7 @@
             </div>
         </div>
     </section>
-    <!-- End Track Area -->
 
-    <!-- Start Regional offices  Area -->
     <section class="office-map-area office-map-area-two">
         <div class="container">
             <div class="location-wrap">
@@ -1458,9 +1498,7 @@
             </div>
         </div>
     </section>
-    <!-- End Regional offices Area -->
 
-    <!-- Start Footer Top Area -->
     <footer class="footer-top-area pt-100 pb-70">
         <div class="container">
             <div class="row">
@@ -1480,7 +1518,7 @@
                         <ul>
                             <li><a href="#Road Freight">Road Freight</a></li>
                             <li><a href="#Testimonial">Testimonial</a></li>
-                            <li><a href="#newsletter">Newsletter</a></li>
+                            <li><a href="/newsletter">Newsletter</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1490,7 +1528,7 @@
                         <ul>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#teams">Professional Team</a></li>
-                            <li><a href="#news">News & Blog</a></li>
+                            <li><a href="/news">News & Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1499,17 +1537,15 @@
                         <h3>Company </h3>
                         <ul>
                             <li><a href="#roles">Roles</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#request-quote">Request A Quote</a></li>
+                            <li><a href="/services/services">Services</a></li>
+                            <li><a href="/features/request-a-quote">Request A Quote</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End Footer Top Area -->
 
-    <!-- Start Footer Bottom Area -->
     <footer class="footer-bottom-area fun-blue-bg">
         <div class="container">
             <div class="row align-items-center">
@@ -1523,14 +1559,15 @@
                                 <a href="privacy.html">Privacy &Policy</a>
                             </li>
                             <li>
-                                <a href="log-in.html">Employee login</a>
+                                <a href="/user/log-in">Employee login</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single-widget-bottom">
-                        <p>© Timi Logistics is Proudly develop by <a href="https://envytheme.com/" target="_blank">Ayomide</a>
+                        <p>© Timi Logistics is Proudly develop by <a href="https://envytheme.com/"
+                                target="_blank">Ayomide</a>
                         </p>
                     </div>
                 </div>
@@ -1568,42 +1605,26 @@
             </div>
         </div>
     </footer>
-    <!-- End Footer Bottom Area -->
 
-    <!-- Start Go Top Area -->
     <div class="go-top">
         <i class='bx bx-chevrons-up bx-fade-up'></i>
         <i class='bx bx-chevrons-up bx-fade-up'></i>
     </div>
-    <!-- End Go Top Area -->
 
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Bootstrap Bundle Min JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Meanmenu Min JS -->
-    <script src="assets/js/meanmenu.min.js"></script>
-    <!-- Wow Min JS -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Owl Carousel Min JS -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Owl Magnific Min JS -->
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <!-- Nice Select Min JS -->
-    <script src="assets/js/nice-select.min.js"></script>
-    <!-- Appear JS -->
-    <script src="assets/js/jquery.appear.min.js"></script>
-    <!-- Odometer JS -->
-    <script src="assets/js/odometer.min.js"></script>
-    <!-- jarallax Min JS -->
-    <script src="assets/js/jarallax.min.js"></script>
-    <!-- Form Ajaxchimp Min JS -->
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <!-- Form Validator Min JS -->
-    <script src="assets/js/form-validator.min.js"></script>
-    <!-- Contact JS -->
-    <script src="assets/js/contact-form-script.js"></script>
-    <!-- Custom JS -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/meanmenu.min.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/magnific-popup.min.js"></script>
+    <script src="/assets/js/nice-select.min.js"></script>
+    <script src="/assets/js/jquery.appear.min.js"></script>
+    <script src="/assets/js/odometer.min.js"></script>
+    <script src="/assets/js/jarallax.min.js"></script>
+    <script src="/assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="/assets/js/form-validator.min.js"></script>
+    <script src="/assets/js/contact-form-script.js"></script>
+    <script src="/assets/js/custom.js"></script>
 </body>
 
 </html>
